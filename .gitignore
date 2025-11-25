@@ -5,6 +5,5 @@ venv
 *.swo
 *.pyc
 .ipynb_checkpoints/
-*.ipynb
 .vscode/
 __pycache__/
