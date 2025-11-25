@@ -1,0 +1,16 @@
+
+version: '3.8'
+
+services:
+  frost-model:
+    ports:
+      - 127.0.0.1:8888:8888
+    build: .
+    container_name: frost-model
+    # If your Dockerfile exposes any ports, uncomment and specify them here.
+    # ports:
+    #   - "8000:8000"
+    # You can add command overrides or volume mounts here if needed.
+    # command: python ./scripts/run_demo.py
+    # volumes:
+    #   - .:/app
